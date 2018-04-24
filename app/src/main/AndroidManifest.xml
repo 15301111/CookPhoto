@@ -31,7 +31,7 @@
                 android:resource="@xml/filepaths" />
         </provider>
 
-        <activity android:name=".ItemActivity"></activity>
+        <activity android:name=".UserMainActivity"></activity>
     </application>
 
 </manifest>

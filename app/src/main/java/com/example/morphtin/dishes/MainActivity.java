@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         ivAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent intent = new Intent(MainActivity.this, ItemActivity.class);
+                //Intent intent = new Intent(MainActivity.this, ItemActivity.class);
+                Intent intent = new Intent(MainActivity.this, HQActivity.class);
                 startActivity(intent);
             }
         });
